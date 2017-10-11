@@ -15,24 +15,26 @@
 
 import Foundation
 
-// First case, setup instructional message, then user input, then repeat input to user
+// First case, setup instructional message, then user input
 print("Please enter your name:")
 let strName = readLine()
-print("Your name is:\n\(strName!)")
 
 // Second case, address
 print("Please enter your address:")
 let strAddress = readLine()
-print("Your address is:\n\(strAddress!)")
 
 // Third case, phone number
 print("Please enter your phone number:")
 let strPhone = readLine()
-print("Your phone number is:\n\(strPhone!)")
 
 // Fourth case, college major
 print("Please enter your major:")
 let strMajor = readLine()
+
+// Output inputs to console
+print("\nYour name is:\n\(strName!)")
+print("Your address is:\n\(strAddress!)")
+print("Your phone number is:\n\(strPhone!)")
 print("Your major is:\n\(strMajor!)")
 
 // Old version, fixed variables with no user inputs
